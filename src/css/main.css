@@ -1,0 +1,51 @@
+:root {
+    font-family: Roboto, sans-serif;
+    color: #FFF;
+}
+
+body > header {
+    display: flex;
+    background-color: #000;
+}
+
+body > header > div {
+    display: flex;
+    width: 50%;
+}
+
+body > header > div:nth-child(2) {
+    justify-content: end;
+}
+
+#browse {
+    display: block;
+}
+
+#browse-list {
+    display: none;
+    padding: 0;
+}
+
+#logo {
+    padding-inline: 15px;
+}
+
+@media(min-width: 1024px) {
+    #browse {
+        display: none;
+    }
+
+    #browse-list {
+        display: flex;
+        list-style-type: none;
+    }
+
+    #browse-list > li {
+        width: max-content;
+        margin-inline: 10px;
+    }
+
+    #logo {
+        padding-inline: 30px;
+    }
+}
