@@ -30,6 +30,36 @@ body > header > div:nth-child(2) {
     padding-inline: 15px;
 }
 
+#spotlight {
+    padding-left: 15px;
+    background-color: #000;
+}
+
+#description {
+    width: 40%;
+}
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#play {
+    background-color: #FFF;
+    color: #000;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#more-info {
+    background-color: #AAA;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
 @media(min-width: 1024px) {
     #browse {
         display: none;
